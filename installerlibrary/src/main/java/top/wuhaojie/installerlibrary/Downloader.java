@@ -9,7 +9,5 @@ package top.wuhaojie.installerlibrary;
 
 public class Downloader {
 
-    private Downloader() {
-    }
-
+  private Downloader() {}
 }

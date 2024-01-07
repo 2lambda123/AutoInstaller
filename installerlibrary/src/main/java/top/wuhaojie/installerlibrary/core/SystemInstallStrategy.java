@@ -1,7 +1,6 @@
 package top.wuhaojie.installerlibrary.core;
 
 import android.content.Context;
-
 import top.wuhaojie.installerlibrary.ApkInfo;
 
 /**
@@ -12,20 +11,16 @@ import top.wuhaojie.installerlibrary.ApkInfo;
  */
 public class SystemInstallStrategy implements InstallStrategy {
 
-    @Override
-    public boolean available() {
-        return false;
-    }
+  @Override
+  public boolean available() {
+    return false;
+  }
 
-    @Override
-    public void prepare(Context context, ApkInfo apkInfo) {
+  @Override
+  public void prepare(Context context, ApkInfo apkInfo) {}
 
-    }
-
-    @Override
-    public int install(Context context, ApkInfo apkInfo) {
-        return 0;
-    }
-
-
+  @Override
+  public int install(Context context, ApkInfo apkInfo) {
+    return 0;
+  }
 }

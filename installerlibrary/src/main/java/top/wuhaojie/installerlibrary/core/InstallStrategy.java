@@ -1,7 +1,6 @@
 package top.wuhaojie.installerlibrary.core;
 
 import android.content.Context;
-
 import top.wuhaojie.installerlibrary.ApkInfo;
 
 /**
@@ -12,10 +11,9 @@ import top.wuhaojie.installerlibrary.ApkInfo;
  */
 public interface InstallStrategy {
 
-    boolean available();
+  boolean available();
 
-    void prepare(Context context, ApkInfo apkInfo);
+  void prepare(Context context, ApkInfo apkInfo);
 
-    int install(Context context, ApkInfo apkInfo);
-
+  int install(Context context, ApkInfo apkInfo);
 }
